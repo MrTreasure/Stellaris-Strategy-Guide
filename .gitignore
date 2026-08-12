@@ -1,1 +1,4 @@
-*.docx
+node_modules/
+.next/
+out/
+*.tsbuildinfo
