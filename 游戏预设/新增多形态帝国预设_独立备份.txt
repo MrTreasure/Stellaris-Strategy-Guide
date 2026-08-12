@@ -1,0 +1,206 @@
+"天坠噬石群"=
+{
+	key="天坠噬石群"
+	ship_prefix={ key="陨核" literal=yes }
+	species=
+	{
+		class="LITHOID"
+		portrait="lith7"
+		species_name={ key="噬晶体" literal=yes }
+		species_plural={ key="噬晶体" literal=yes }
+		species_adjective={ key="噬晶" literal=yes }
+		name_list="LITHOID4"
+		gender=indeterminable
+		trait="trait_lithoid"
+		trait="trait_industrious"
+		trait="trait_strong"
+		trait="trait_unruly"
+		trait="trait_sedentary"
+	}
+	name={ key="天坠噬石群" literal=yes }
+	adjective={ key="噬石群" literal=yes }
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	is_nomadic=no
+	planet_name={ key="第一撞击坑" literal=yes }
+	planet_class="pc_arid"
+	system_name={ key="终末弹道" literal=yes }
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag=
+	{
+		icon={ category="human" file="flag_human_15.dds" }
+		background={ category="backgrounds" file="flag_BG_20.dds" }
+		colors={ "orange" "black" "null" "null" }
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name={ full_names={ key="陨核主脑" literal=yes } }
+		portrait="lith7"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_gestalt_consciousness"
+	civics={ "civic_hive_devouring_swarm" "civic_hive_strength_of_legions" }
+	origin="origin_lithoid"
+}
+"尸星育巢"=
+{
+	key="尸星育巢"
+	ship_prefix={ key="菌丝" literal=yes }
+	species=
+	{
+		class="ART"
+		portrait="art8"
+		species_name={ key="育巢虫" literal=yes }
+		species_plural={ key="育巢虫" literal=yes }
+		species_adjective={ key="育巢" literal=yes }
+		name_list="ART3"
+		gender=indeterminable
+		trait="trait_organic"
+		trait="trait_rapid_breeders"
+		trait="trait_intelligent"
+		trait="trait_unruly"
+		trait="trait_solitary"
+	}
+	name={ key="尸星育巢" literal=yes }
+	adjective={ key="育巢" literal=yes }
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	is_nomadic=no
+	planet_name={ key="母体腔室" literal=yes }
+	planet_class="pc_tropical"
+	system_name={ key="菌索节点" literal=yes }
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag=
+	{
+		icon={ category="human" file="flag_human_4.dds" }
+		background={ category="backgrounds" file="stripe.dds" }
+		colors={ "purple" "black" "null" "null" }
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name={ full_names={ key="始祖节律" literal=yes } }
+		portrait="art8"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_gestalt_consciousness"
+	civics={ "civic_hive_cordyceptic_drones" "civic_hive_subspace_ephapse" }
+	origin="origin_progenitor_hive"
+}
+"零号监护阵列"=
+{
+	key="零号监护阵列"
+	ship_prefix={ key="壁垒" literal=yes }
+	species=
+	{
+		class="MACHINE"
+		portrait="default_robot"
+		species_name={ key="监护单元" literal=yes }
+		species_plural={ key="监护单元" literal=yes }
+		species_adjective={ key="监护" literal=yes }
+		name_list="MACHINE1"
+		gender=indeterminable
+		trait="trait_machine_unit"
+		trait="trait_robot_mass_produced"
+		trait="trait_robot_power_drills"
+		trait="trait_robot_high_maintenance"
+		trait="trait_robot_bulky"
+	}
+	name={ key="零号监护阵列" literal=yes }
+	adjective={ key="监护阵列" literal=yes }
+	authority="auth_machine_intelligence"
+	government="gov_machine_intelligence"
+	is_nomadic=no
+	planet_name={ key="封闭核心" literal=yes }
+	planet_class="pc_machine"
+	system_name={ key="零号防区" literal=yes }
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon={ category="human" file="flag_human_9.dds" }
+		background={ category="backgrounds" file="00_solid.dds" }
+		colors={ "dark_blue" "black" "null" "null" }
+	}
+	ruler=
+	{
+		gender=indeterminable
+		name={ full_names={ key="中央监控核" literal=yes } }
+		portrait="default_robot"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="default_room"
+	spawn_enabled=no
+	ethic="ethic_gestalt_consciousness"
+	civics={ "civic_machine_sovereign_guardianship" "civic_machine_built_to_last" }
+	origin="origin_machine"
+}
+"远星花冠"=
+{
+	key="远星花冠"
+	ship_prefix={ key="种荚" literal=yes }
+	species=
+	{
+		class="PLANT"
+		portrait="pla1"
+		species_name={ key="花冠族" literal=yes }
+		species_plural={ key="花冠族" literal=yes }
+		species_adjective={ key="花冠" literal=yes }
+		name_list="PLANT1"
+		gender=not_set
+		trait="trait_organic"
+		trait="trait_plantoid_phototrophic"
+		trait="trait_adaptive"
+		trait="trait_traditional"
+		trait="trait_unruly"
+		trait="trait_sedentary"
+	}
+	name={ key="远星花冠" literal=yes }
+	adjective={ key="花冠" literal=yes }
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	is_nomadic=no
+	planet_name={ key="盛放庭园" literal=yes }
+	planet_class="pc_tropical"
+	system_name={ key="第一花期" literal=yes }
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag=
+	{
+		icon={ category="human" file="flag_human_15.dds" }
+		background={ category="backgrounds" file="00_solid.dds" }
+		colors={ "green" "black" "null" "null" }
+	}
+	ruler=
+	{
+		gender=female
+		name={ full_names={ key="绽放者青穗" literal=yes } }
+		portrait="pla1"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="personality_migrating_flock_room"
+	spawn_enabled=no
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_pacifist"
+	civics={ "civic_idyllic_bloom" "civic_environmentalist" }
+	origin="origin_fruitful"
+}

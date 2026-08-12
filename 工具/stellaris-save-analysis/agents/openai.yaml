@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stellaris Save Analysis"
+  short_description: "Read and diagnose Stellaris save files"
+  default_prompt: "Find the latest Stellaris save and analyze the empire, colonies, jobs, buildings, technology, and requested playstyle issues."

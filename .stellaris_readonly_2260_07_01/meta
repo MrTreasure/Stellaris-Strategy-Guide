@@ -1,0 +1,65 @@
+version="Pegasus v4.4.6"
+version_control_revision=52
+name="终焉骑士团"
+date="2260.07.01"
+required_dlcs=
+{
+	"Ancient Relics Story Pack"
+	"Anniversary Portraits"
+	"Apocalypse"
+	"Aquatics Species Pack"
+	"Astral Planes"
+	"BioGenesis"
+	"Cosmic Storms"
+	"Distant Stars Story Pack"
+	"Federations"
+	"First Contact Story Pack"
+	"Galactic Paragons"
+	"Grand Archive"
+	"Horizon Signal"
+	"Infernals Species Pack"
+	"Leviathans Story Pack"
+	"Lithoids Species Pack"
+	"Megacorp"
+	"Necroids Species Pack"
+	"Nemesis"
+	"Nomads"
+	"Overlord"
+	"Plantoids Species Pack"
+	"Rick The Cube Species Portrait"
+	"Shadows of the Shroud"
+	"Stargazer Species Portrait"
+	"The Machine Age"
+	"Toxoids Species Pack"
+	"Vipra the Vapor Species Portrait"
+}
+mods=
+{
+	"Stellaris REMIXED"
+	"Tech Relations"
+	"UI Overhaul Dynamic"
+	"UI Overhaul Dynamic - Extended Topbar for DLCs"
+}
+player_portrait="human"
+flag=
+{
+	icon=
+	{
+		category="human"
+		file="flag_human_15.dds"
+	}
+	background=
+	{
+		category="backgrounds"
+		file="flag_BG_20.dds"
+	}
+	colors=
+	{
+		"dark_red"
+		"black"
+		"null"
+		"null"
+	}
+}
+meta_fleets=175
+meta_planets=3
