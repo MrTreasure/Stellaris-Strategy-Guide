@@ -34,6 +34,7 @@ const metadata: Record<string, Pick<Guide, 'difficulty' | 'dlc' | 'image'>> = {
   '13': { difficulty: '中高', dlc: '霸主 / 死灵物种包', image: '/images/guide-13.jpg' },
   '14': { difficulty: '中', dlc: '合成人黎明 / 星界位面', image: '/images/guide-14.jpg' },
   '15': { difficulty: '中', dlc: '植物类物种包', image: '/images/guide-15.jpg' },
+  '16': { difficulty: '中', dlc: '乌托邦', image: '/images/guide-16.jpg' },
 };
 
 const reviewImages: Record<string, string> = {
